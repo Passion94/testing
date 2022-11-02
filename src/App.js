@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import {FaCalendar,FaTimes, FaGrav} from "react-icons/fa";
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    <h1><FaCalendar/> Favourite plans in life</h1>
+      <ul>
+      <li><FaTimes/> Learn Software development</li>
+      <li> <FaGrav/>Own a business</li>
+      <li> <FaTimes/>Fight Inequality in the soceity</li>
+      <li><FaGrav/> Provide access to sustainable skills for the upcoming generation</li>
+      <li> <FaTimes/>Become a link between man and God</li>
+      <li><FaGrav/> Get a life of my own</li>
+       
+       
+      </ul>
     </div>
   );
 }

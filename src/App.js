@@ -26,7 +26,7 @@ function App() {
        
        
       </ul>
-<hr style={{margin:"20px"}}/>
+<hr style={{margin:"20px"}}/> {/*End of project one*/}
  <ul>
       <li> <FontAwesomeIcon className="fa-icon" icon={faSuitcase} /> Learn Software development</li>
       <li> <FontAwesomeIcon className="fa-icon" icon={faEnvelope} /> Own a business</li>

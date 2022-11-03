@@ -26,7 +26,6 @@ function App() {
        
        
       </ul>
-<hr/>
 
  <ul>
       <li> <FontAwesomeIcon className="fa-icon" icon={faSuitcase} /> Learn Software development</li>

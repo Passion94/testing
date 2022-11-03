@@ -26,6 +26,18 @@ function App() {
        
        
       </ul>
+<hr><hr>
+
+ <ul>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faSuitcase} /> Learn Software development</li>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faEnvelope} /> Own a business</li>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faPhone} />Fight Inequality in the soceity</li>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faAsterisk} /> Provide access to sustainable skills for the upcoming generation</li>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faGlobe} /> Become a link between man and God</li>
+      <li> <FontAwesomeIcon className="fa-icon" icon={faSuitcase} /> Get a life of my own</li>
+       
+       
+      </ul>
     </div>
   );
 }
